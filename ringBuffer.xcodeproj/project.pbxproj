@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32F6410421AE76C900221CE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F6410321AE76C900221CE0 /* main.c */; };
+		32F6410C21AE771E00221CE0 /* ringbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F6410B21AE771E00221CE0 /* ringbuf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		32F6410021AE76C900221CE0 /* ringBuffer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ringBuffer; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F6410321AE76C900221CE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		32F6410A21AE771E00221CE0 /* ringbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ringbuf.h; sourceTree = "<group>"; };
+		32F6410B21AE771E00221CE0 /* ringbuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ringbuf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				32F6410321AE76C900221CE0 /* main.c */,
+				32F6410A21AE771E00221CE0 /* ringbuf.h */,
+				32F6410B21AE771E00221CE0 /* ringbuf.c */,
 			);
 			path = ringBuffer;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F6410421AE76C900221CE0 /* main.c in Sources */,
+				32F6410C21AE771E00221CE0 /* ringbuf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
